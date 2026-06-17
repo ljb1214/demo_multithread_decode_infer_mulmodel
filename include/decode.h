@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * Non-commercial use only. Redistribution, resale,
- * and derivative works are prohibited.
- */
-
 #ifndef _DECODE_H_                         // 开始头文件宏
 #define _DECODE_H_                         
 #include <string.h>                        // 包含C标志库函数mmcpy、mmset

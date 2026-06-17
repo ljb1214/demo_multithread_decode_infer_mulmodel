@@ -1,9 +1,3 @@
-// 版权声明：作者 HeXiaotian，日期 2025-04-01，仅限非商业使用，禁止再分发、转售和衍生作品
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * Non-commercial use only. Redistribution, resale,
- * and derivative works are prohibited.
- */
 
 // 包含自定义的 XML 工具函数声明头文件
 #include "xml_utils.h"

@@ -1,14 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * 版权声明：2025-04-01 HeXiaotian 保留所有权利
- *
- * This source code is licensed for learning and research purposes only.
- * 本源代码仅许可用于学习和研究目的
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- * 未经作者事先书面许可，严禁商业使用、再分发、转售以及创建衍生作品
- */
-
 #ifndef _RKNN_ZERO_COPY_DEMO_POSTPROCESS_H_   // 头文件保护宏：如果未定义，则定义，防止重复包含
 #define _RKNN_ZERO_COPY_DEMO_POSTPROCESS_H_   // 定义该宏，表示头文件已被包含
 

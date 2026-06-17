@@ -1,8 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * Non-commercial use only. Redistribution, resale,
- * and derivative works are prohibited.
- */
 
 // 包含自定义的 PS/RTP 封装头文件
 #include "ps_rtp.h"

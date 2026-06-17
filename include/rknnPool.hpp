@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * 本源码仅授权用于学习与研究目的。
- * 未经作者书面许可，严禁用于商业用途、再次分发、转售、创建衍生作品。
- */
-
 #ifndef _rknnPool_H    // 防止头文件被重复包含（避免编译报错）
 #define _rknnPool_H
 #include <vector>      // C++ 标准库：动态数组，用于存储数据
@@ -126,10 +119,10 @@ rknn_lite::rknn_lite(const char *model_name, int n, int class_num, int id)
 
     // 模型文件大小
     int model_data_size = 0;
-    // 调用函数：读取模型文件到内存
+    // 调用函数：读取模型文件到内存ram
     model_data = load_model(model_name, &model_data_size);
 
-    // 初始化 RKNN 引擎
+    // 初始化 RKNN 引擎 把模型交给npu分布npu内部资源
     // 参数：模型句柄、模型数据、数据大小、标志、扩展参数
     ret = rknn_init(&rkModel, model_data, model_data_size, 0, NULL);
     // 判断是否初始化失败
@@ -235,7 +228,7 @@ rknn_lite::rknn_lite(const char *model_name, int n, int class_num, int id)
     
     // 计算输入缓冲区大小
     input_dma_size = width * height * channel;
-    // 尝试分配 dma-buf
+    // 尝试分配 dma-buf（推理输入内存）
     input_dma_fd = alloc_dma_buffer(input_dma_size, &input_dma_virt);
     if (input_dma_fd >= 0) {
         // 分配成功：使用 dma-buf 的虚拟地址作为输入缓冲区

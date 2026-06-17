@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
-
  // 防止头文件重复包含
 #pragma once
 // 包裹C语言头文件，防止被C++名称修饰

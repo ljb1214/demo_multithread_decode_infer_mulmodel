@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * Non-commercial use only. Redistribution, resale,
- * and derivative works are prohibited.
- */
-
 #ifndef PROJECT2_FRAME_QUEUE_H   // 头文件保护宏：防止重复包含
 #define PROJECT2_FRAME_QUEUE_H   // 定义宏，表示该头文件已被包含
 

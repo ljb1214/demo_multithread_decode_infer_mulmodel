@@ -1,10 +1,4 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
+
 
 #ifndef THREADPOOL_H                 // 头文件保护宏：如果未定义THREADPOOL_H，则定义它，防止重复包含
 #define THREADPOOL_H                 // 定义宏，标识头文件已被包含

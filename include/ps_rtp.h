@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * Non-commercial use only. Redistribution, resale,
- * and derivative works are prohibited.
- */
-// 版权声明：版权归HeXiaotian所有，仅限非商业使用，禁止再分发、转售及衍生作品
-
 #ifndef PROJECT2_PS_RTP_H                // 头文件保护宏：如果未定义PROJECT2_PS_RTP_H，则定义它，防止重复包含
 #define PROJECT2_PS_RTP_H                // 定义宏，表示头文件已被包含
 

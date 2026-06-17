@@ -1,13 +1,5 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
 
 #pragma once                                   // 确保头文件只被编译一次
-
 #include <opencv2/opencv.hpp>                  // 包含 OpenCV 核心库，用于图像处理
 #include <thread>                              // 包含线程库，用于创建推流线程
 #include <mutex>                               // 包含互斥锁，用于保护共享数据

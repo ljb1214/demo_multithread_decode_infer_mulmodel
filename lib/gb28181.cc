@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * Non-commercial use only. Redistribution, resale,
- * and derivative works are prohibited.
- */
+
 
 // 包含自定义的GB28181头文件，其中定义了GB28Info、SDPInfo等结构体
 #include "gb28181.h"

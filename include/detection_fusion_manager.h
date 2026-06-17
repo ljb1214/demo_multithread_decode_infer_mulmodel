@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
 #pragma once
 #include <opencv2/opencv.hpp>
 #include <vector>

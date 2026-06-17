@@ -1,10 +1,4 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
+
 
 #include "dma_buffer.h"
 #include <iostream>
@@ -270,7 +264,7 @@ void rknn_infer(rknn_lite *p1, rknn_lite *p2, rknn_lite *p3, rknn_lite *p4, int 
 int main(int argc, char *argv[])
 {
     if (argc > 1)
-        manager.num_stream = std::stoi(argv[1]);
+        manager.num_stream = std::stoi(argv[1]);  //将char转化为int
     else
         manager.num_stream = static_cast<int>(manager.urls.size());
 
@@ -358,6 +352,7 @@ int main(int argc, char *argv[])
         rk_threads.push_back(std::thread(rknn_infer, ptr1, ptr2, ptr3, ptr4, i));
     }
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
+    //启动画面拼接线程
     std::thread readerThread(combineImage, std::ref(manager));
     readerThread.join();
 

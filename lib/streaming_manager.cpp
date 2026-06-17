@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
 
 // 包含流媒体管理类的头文件（类定义、结构体、接口声明）
 #include "streaming_manager.h"

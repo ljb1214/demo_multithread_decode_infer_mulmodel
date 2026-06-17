@@ -1,10 +1,4 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
+
 
 #include "detection_fusion_manager.h"   // 包含检测融合管理器的头文件声明
 #include <iostream>                     // 包含标准输入输出流，可能用于调试输出

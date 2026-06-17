@@ -1,10 +1,4 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * 版权声明：版权归 HeXiaotian 所有
- * Non-commercial use only. Redistribution, resale,
- * and derivative works are prohibited.
- * 仅限非商业使用，禁止再分发、转售及衍生作品
- */
+
 
 #ifndef PROJECT2_XML_UTILS_H                // 头文件保护宏：如果未定义 PROJECT2_XML_UTILS_H，则定义它，防止重复包含
 #define PROJECT2_XML_UTILS_H                // 定义宏 PROJECT2_XML_UTILS_H，标识该头文件已被包含

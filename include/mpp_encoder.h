@@ -1,13 +1,4 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- * 版权声明：2025-04-01 HeXiaotian 保留所有权利
- *
- * This source code is licensed for learning and research purposes only.
- * 本源代码仅许可用于学习和研究目的
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- * 未经作者事先书面许可，严禁商业使用、再分发、转售以及创建衍生作品
- */
+
 
 #ifndef MPP_ENCODER_H                     // 头文件保护宏：如果未定义MPP_ENCODER_H，则定义它，防止重复包含
 #define MPP_ENCODER_H                     // 定义宏，表示头文件已被包含

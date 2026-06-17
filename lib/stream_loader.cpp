@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2025-04-01 HeXiaotian
- *
- * This source code is licensed for learning and research purposes only.
- * Commercial use, redistribution, resale, and creation of derivative works
- * are strictly prohibited without prior written permission from the author.
- */
 
 #include "dma_buffer.h"   // 如果已经创建了公共头文件
 #include <unistd.h>       // for close
