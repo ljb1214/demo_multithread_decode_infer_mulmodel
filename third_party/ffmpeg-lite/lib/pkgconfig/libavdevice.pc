@@ -1,0 +1,14 @@
+prefix=/home/cat/ffmpeg-lite
+exec_prefix=${prefix}
+libdir=/home/cat/ffmpeg-lite/lib
+includedir=/home/cat/ffmpeg-lite/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 60.3.100
+Requires: 
+Requires.private: libavformat >= 60.16.100, libavcodec >= 60.31.102, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavdevice 
+Libs.private: -lm -latomic
+Cflags: -I${includedir}

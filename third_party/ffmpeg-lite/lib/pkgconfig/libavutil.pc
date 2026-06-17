@@ -1,0 +1,14 @@
+prefix=/home/cat/ffmpeg-lite
+exec_prefix=${prefix}
+libdir=/home/cat/ffmpeg-lite/lib
+includedir=/home/cat/ffmpeg-lite/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.29.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -latomic -lX11
+Cflags: -I${includedir}

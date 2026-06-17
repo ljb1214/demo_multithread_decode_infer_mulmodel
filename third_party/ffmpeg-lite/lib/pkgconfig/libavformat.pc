@@ -1,0 +1,14 @@
+prefix=/home/cat/ffmpeg-lite
+exec_prefix=${prefix}
+libdir=/home/cat/ffmpeg-lite/lib
+includedir=/home/cat/ffmpeg-lite/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.16.100
+Requires: 
+Requires.private: libavcodec >= 60.31.102, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -latomic -lz
+Cflags: -I${includedir}
